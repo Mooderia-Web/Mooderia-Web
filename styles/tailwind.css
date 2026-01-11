@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Project base overrides can go here */
+body { background-color: #f2f2f2; font-family: 'Montserrat', sans-serif; }
