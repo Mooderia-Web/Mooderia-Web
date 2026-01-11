@@ -242,17 +242,17 @@ const ProfileSection: React.FC<ProfileSectionProps> = ({ user, allPosts, isDarkM
 
         <div className="mt-8 flex flex-wrap gap-8 border-t border-gray-100 dark:border-slate-700 pt-8 px-4">
            <div className="text-center">
-             <p className="text-3xl font-black text-slate-900 dark:text-white italic">{user.followers.length}</p>
+             <p className="text-3xl font-black text-slate-900 dark:text-slate-300 italic">{user.followers.length}</p>
              <p className="text-[10px] font-black opacity-40 uppercase tracking-widest">Followers</p>
            </div>
            <div className="text-center">
-             <p className="text-3xl font-black text-slate-900 dark:text-white italic">{user.following.length}</p>
+             <p className="text-3xl font-black text-slate-900 dark:text-slate-300 italic">{user.following.length}</p>
              <p className="text-[10px] font-black opacity-40 uppercase tracking-widest">Following</p>
            </div>
            <div className="text-center px-6 py-2 bg-orange-100 dark:bg-orange-900/30 rounded-2xl flex items-center gap-3 ring-2 ring-orange-500/10">
              <Flame className="text-orange-500" size={24} />
              <div>
-                <p className="text-2xl font-black text-slate-900 dark:text-white italic leading-none">{user.moodStreak || 0}</p>
+                <p className="text-2xl font-black text-slate-900 dark:text-slate-300 italic leading-none">{user.moodStreak || 0}</p>
                 <p className="text-[9px] font-black opacity-50 uppercase tracking-widest">Streak</p>
              </div>
            </div>

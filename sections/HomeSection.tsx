@@ -73,21 +73,21 @@ const HomeSection: React.FC<HomeSectionProps> = ({ user, posts, isDarkMode }) =>
             <p className="text-[10px] font-black opacity-30 uppercase tracking-widest">Followers</p>
             <Award className="text-yellow-500 opacity-20" size={16} />
           </div>
-          <p className="text-3xl md:text-4xl font-black text-[#1368ce] italic">{user.followers.length}</p>
+          <p className="text-3xl md:text-4xl font-black text-slate-900 dark:text-slate-300 italic">{user.followers.length}</p>
         </div>
         <div className={`p-5 md:p-6 rounded-[2rem] ${isDarkMode ? 'bg-slate-800' : 'bg-white'} shadow-xl border-b-4 border-green-500/20 group`}>
           <div className="flex justify-between items-start mb-2">
             <p className="text-[10px] font-black opacity-30 uppercase tracking-widest">Following</p>
             <TrendingUp className="text-blue-500 opacity-20" size={16} />
           </div>
-          <p className="text-3xl md:text-4xl font-black text-[#26890c] italic">{user.following.length}</p>
+          <p className="text-3xl md:text-4xl font-black text-slate-900 dark:text-slate-300 italic">{user.following.length}</p>
         </div>
         <div className={`col-span-2 md:col-span-1 p-5 md:p-6 rounded-[2rem] ${isDarkMode ? 'bg-slate-800' : 'bg-white'} shadow-xl border-b-4 border-red-500/20 group`}>
            <div className="flex justify-between items-start mb-2">
             <p className="text-[10px] font-black opacity-30 uppercase tracking-widest">Consistency</p>
             <Flame className="text-red-500 opacity-20" size={16} />
           </div>
-          <p className="text-3xl md:text-4xl font-black text-[#e21b3c] italic">{user.moodStreak > 0 ? '98%' : '0%'}</p>
+          <p className="text-3xl md:text-4xl font-black text-slate-900 dark:text-slate-300 italic">{user.moodStreak > 0 ? '98%' : '0%'}</p>
         </div>
       </div>
 
