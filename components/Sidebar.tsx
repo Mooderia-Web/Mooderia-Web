@@ -17,7 +17,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, onNavigate, isDarkMode
     { id: 'Home', icon: <Home />, color: 'kahoot-button-purple', label: 'Home' },
     { id: 'Mood', icon: <Smile />, color: 'kahoot-button-blue', label: 'Mood' },
     { id: 'Zodiac', icon: <Moon />, color: 'kahoot-button-green', label: 'Zodiac' },
-    { id: 'CityHall', icon: <Building2 />, color: 'kahoot-button-red', label: 'City' },
+    { id: 'CityHall', icon: <Building2 />, color: 'kahoot-button-red', label: 'Community' },
     { id: 'Notifications', icon: <Bell />, color: 'kahoot-button-yellow', label: 'Alerts' },
     { id: 'Profile', icon: <User />, color: 'bg-indigo-500', label: 'Profile' },
     { id: 'Settings', icon: <Settings />, color: 'bg-gray-400', label: 'Settings' },
